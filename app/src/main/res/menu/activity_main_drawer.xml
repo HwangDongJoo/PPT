@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="none">
+        <item
+            android:id="@+id/nav_logout"
+            android:icon="@drawable/ic_menu_camera"
+            android:title="Logout" />
+        <item
+            android:id="@+id/nav_home"
+            android:title="HOME" />
+        <item
+            android:id="@+id/nav_company_search"
+            android:title="기업검색" />
+        <item android:title="Portfolio">
+            <menu>
+                <item
+                    android:id="@+id/nav_having_stock"
+                    android:title="보유주식" />
+                <item
+                    android:id="@+id/nav_interesting_stock"
+                    android:title="관심종목" />
+                <item
+                    android:id="@+id/nav_own_analysis"
+                    android:title="나만의 분석"/>
+            </menu>
+        </item>
+
+        <item
+            android:title="기타">
+            <menu>
+                <item
+                    android:id="@+id/nav_stock_exchange"
+                    android:title="증권거래소"/>
+            </menu>
+
+        </item>
+    </group>
+
+</menu>
